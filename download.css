@@ -1,0 +1,15 @@
+/* Styles for the container holding the tutorial steps */
+.tutorial-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  height: 900px; /* Set a height to enable scrolling */
+}
+
+/* Styles for individual tutorial steps */
+.tutorial-step {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
